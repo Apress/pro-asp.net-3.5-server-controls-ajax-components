@@ -1,0 +1,16 @@
+﻿<!--
+    You can find existing browser definitions at
+    <windir>\Microsoft.NET\Framework\<ver>\CONFIG\Browsers
+-->
+<browsers>
+  <browser refID="Default">
+    <controlAdapters>
+      <!--
+      <adapter controlType="ControlsBook2Lib.Ch03.StatefulLabel"
+               adapterType="ControlsBook2Lib.Ch10.StatefulLabelAdapter" />
+      <adapter controlType="ControlsBook2Lib.Ch04.FancyLabel"
+               adapterType="ControlsBook2Lib.Ch10.FancyLabelAdapter" />-->
+    </controlAdapters>
+    
+  </browser>
+</browsers>

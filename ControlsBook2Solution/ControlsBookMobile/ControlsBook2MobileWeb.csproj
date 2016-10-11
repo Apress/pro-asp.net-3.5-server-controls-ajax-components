@@ -1,0 +1,326 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12359AD3-6CAD-4C56-A672-AF4866679FAB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ControlsBook2Mobile</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ControlsBook2Mobile</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mobile">
+      <Name>System.Web.Mobile</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ch10\MCTextBoxDemo.aspx.designer.cs">
+      <DependentUpon>MCTextBoxDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch10\ContainerControls.aspx.cs">
+      <DependentUpon>ContainerControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\ContainerControls.aspx.designer.cs">
+      <DependentUpon>ContainerControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\CustDB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ch10\ImageAdCalendar.aspx.cs">
+      <DependentUpon>ImageAdCalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\ImageAdCalendar.aspx.designer.cs">
+      <DependentUpon>ImageAdCalendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\ListControls.aspx.cs">
+      <DependentUpon>ListControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\ListControls.aspx.designer.cs">
+      <DependentUpon>ListControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\MobileBasics.aspx.cs">
+      <DependentUpon>MobileBasics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\MobileBasics.aspx.designer.cs">
+      <DependentUpon>MobileBasics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\TxtandTransCtrls.aspx.cs">
+      <DependentUpon>TxtandTransCtrls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\TxtandTransCtrls.aspx.designer.cs">
+      <DependentUpon>TxtandTransCtrls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\ValidationControls.aspx.cs">
+      <DependentUpon>ValidationControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\ValidationControls.aspx.designer.cs">
+      <DependentUpon>ValidationControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\ControlsBook2MobileFooter.ascx.cs">
+      <DependentUpon>ControlsBook2MobileFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\ControlsBook2MobileFooter.ascx.designer.cs">
+      <DependentUpon>ControlsBook2MobileFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\ControlsBook2MobileHeader.ascx.cs">
+      <DependentUpon>ControlsBook2MobileHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\ControlsBook2MobileHeader.ascx.designer.cs">
+      <DependentUpon>ControlsBook2MobileHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\DeviceSpecific.aspx.cs">
+      <DependentUpon>DeviceSpecific.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\DeviceSpecific.aspx.designer.cs">
+      <DependentUpon>DeviceSpecific.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\ExternalStyleSheetClass.ascx.cs">
+      <DependentUpon>ExternalStyleSheetClass.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\ExternalStyleSheetClass.ascx.designer.cs">
+      <DependentUpon>ExternalStyleSheetClass.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\MCTextBoxDemo.aspx.cs">
+      <DependentUpon>MCTextBoxDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\StylesheetExternal.aspx.cs">
+      <DependentUpon>StylesheetExternal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\StylesheetExternal.aspx.designer.cs">
+      <DependentUpon>StylesheetExternal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\StyleSheetInline.aspx.cs">
+      <DependentUpon>StyleSheetInline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\StyleSheetInline.aspx.designer.cs">
+      <DependentUpon>StyleSheetInline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ch10\UserControlHost.aspx.cs">
+      <DependentUpon>UserControlHost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ch10\UserControlHost.aspx.designer.cs">
+      <DependentUpon>UserControlHost.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Ch10\ads.xml" />
+    <Content Include="Ch10\ContainerControls.aspx" />
+    <Content Include="Ch10\ImageAdCalendar.aspx" />
+    <Content Include="Ch10\ListControls.aspx" />
+    <Content Include="Ch10\imgs\microsoft.gif" />
+    <Content Include="Ch10\MobileBasics.aspx" />
+    <Content Include="Ch10\imgs\msdn.gif" />
+    <Content Include="Ch10\imgs\mslogo.bmp" />
+    <Content Include="Ch10\imgs\technet.gif" />
+    <Content Include="Ch10\TxtandTransCtrls.aspx" />
+    <Content Include="Ch10\ValidationControls.aspx" />
+    <Content Include="Ch10\ControlsBook2MobileFooter.ascx" />
+    <Content Include="Ch10\ControlsBook2MobileHeader.ascx" />
+    <Content Include="Ch10\DeviceSpecific.aspx" />
+    <Content Include="Ch10\ExternalStyleSheetClass.ascx" />
+    <Content Include="Ch10\imgs\line.bmp" />
+    <Content Include="Ch10\MCTextBoxDemo.aspx" />
+    <Content Include="Ch10\StylesheetExternal.aspx" />
+    <Content Include="Ch10\StyleSheetInline.aspx" />
+    <Content Include="Ch10\UserControlHost.aspx" />
+    <Content Include="Web.config" />
+    <EmbeddedResource Include="Ch10\ContainerControls.aspx.resx">
+      <DependentUpon>ContainerControls.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\ImageAdCalendar.aspx.resx">
+      <DependentUpon>ImageAdCalendar.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\ListControls.aspx.resx">
+      <DependentUpon>ListControls.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\MobileBasics.aspx.resx">
+      <DependentUpon>MobileBasics.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\TxtandTransCtrls.aspx.resx">
+      <DependentUpon>TxtandTransCtrls.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\ValidationControls.aspx.resx">
+      <DependentUpon>ValidationControls.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\ControlsBook2MobileFooter.ascx.resx">
+      <DependentUpon>ControlsBook2MobileFooter.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\ControlsBook2MobileHeader.ascx.resx">
+      <DependentUpon>ControlsBook2MobileHeader.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\DeviceSpecific.aspx.resx">
+      <DependentUpon>DeviceSpecific.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\ExternalStyleSheetClass.ascx.resx">
+      <DependentUpon>ExternalStyleSheetClass.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\MCTextBoxDemo.aspx.resx">
+      <DependentUpon>MCTextBoxDemo.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\StylesheetExternal.aspx.resx">
+      <DependentUpon>StylesheetExternal.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\StyleSheetInline.aspx.resx">
+      <DependentUpon>StyleSheetInline.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\UserControlHost.aspx.resx">
+      <DependentUpon>UserControlHost.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Ch10\imgs\mslogo.wbmp" />
+    <None Include="Ch10\imgs\line.wbmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlsBook2Lib\ControlsBook2Lib.csproj">
+      <Project>{903360CE-1FB6-4F8D-B976-D0571279FB10}</Project>
+      <Name>ControlsBook2Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61477</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/ControlsBookMobile</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{903360CE-1FB6-4F8D-B976-D0571279FB10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ControlsBook2Lib</RootNamespace>
+    <AssemblyName>ControlsBook2Lib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TeamSystem.Data.UnitTesting, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ch02\MenuCustomControl.cs" />
+    <Compile Include="Ch02\TableCompCustomControl.cs" />
+    <Compile Include="Ch02\TableCustomControl.cs" />
+    <Compile Include="Ch02\TextBox3d.cs" />
+    <Compile Include="Ch03\StatefulLabel.cs" />
+    <Compile Include="Ch03\StatelessLabel.cs" />
+    <Compile Include="Ch03\Textbox.cs" />
+    <Compile Include="Ch03\TextBox3dControlState.cs" />
+    <Compile Include="Ch04\FancyLabel.cs" />
+    <Compile Include="Ch04\FancyLabelStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ch04\InputBox.cs" />
+    <Compile Include="Ch04\Label.cs" />
+    <Compile Include="Ch04\TextBox.cs" />
+    <Compile Include="Ch05\CustomEventTextBox.cs" />
+    <Compile Include="Ch05\LifeCycleControl.cs" />
+    <Compile Include="Ch05\PageCommand.cs" />
+    <Compile Include="Ch05\Pager.cs" />
+    <Compile Include="Ch05\SuperButton.cs" />
+    <Compile Include="Ch05\TextBox.cs" />
+    <Compile Include="Ch05\TextChanged.cs" />
+    <Compile Include="Ch06\BuilderMenu.cs" />
+    <Compile Include="Ch06\MenuControlBuilder.cs" />
+    <Compile Include="Ch06\MenuItemData.cs" />
+    <Compile Include="Ch06\TagDataMenu.cs" />
+    <Compile Include="Ch06\TemplateContainers.cs" />
+    <Compile Include="Ch06\TemplateMenu.cs" />
+    <Compile Include="Ch07\CustCodeTemplates.cs" />
+    <Compile Include="Ch07\DataSourceHelper.cs" />
+    <Compile Include="Ch07\DummyDataSource.cs" />
+    <Compile Include="Ch07\EnhancedSpreadsheetControl.cs" />
+    <Compile Include="Ch07\EnhancedSpreadsheetRow.cs" />
+    <Compile Include="Ch07\Repeater.cs" />
+    <Compile Include="Ch07\RepeaterCommand.cs" />
+    <Compile Include="Ch07\RepeaterItem.cs" />
+    <Compile Include="Ch08\ClickLabel.cs" />
+    <Compile Include="Ch08\ConfirmedLinkButton.cs" />
+    <Compile Include="Ch08\FormConfirmation.cs" />
+    <Compile Include="Ch08\RolloverImageLink.cs" />
+    <Compile Include="Ch08\StockNews.cs" />
+    <Compile Include="Ch08\UpDown.cs" />
+    <Compile Include="Ch09\HighlightedHyperLink.cs" />
+    <Compile Include="Ch09\TextCaseExtender.cs" />
+    <Content Include="Ch10\StatefulLabelAdapter.cs" />
+    <Content Include="Ch10\FancyLabelAdapter.cs" />
+    <Compile Include="Ch10\CustomerInvoices.cs" />
+    <Compile Include="Ch10\CustomerInvoicesWebPart.cs" />
+    <Compile Include="Ch10\CustomerList.cs" />
+    <Compile Include="Ch10\CustomerListWebPart.cs" />
+    <Compile Include="Ch10\CustomerIDInterface.cs" />
+    <Compile Include="Ch10\HtmlMCTextBoxAdapter.cs" />
+    <Compile Include="Ch10\MCTextBox.cs" />
+    <Compile Include="Ch10\WebPartPageController.cs" />
+    <Compile Include="Ch10\WmlMCTextBoxAdapter.cs" />
+    <Compile Include="Ch11\Design\SimpleTextEditorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ch11\Design\SimpleTextEditorDialog.Designer.cs">
+      <DependentUpon>SimpleTextEditorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ch11\Design\TitledThumbnailComponentEditorDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ch11\Design\TitledThumbnailComponentEditorDlg.Designer.cs">
+      <DependentUpon>TitledThumbnailComponentEditorDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ch11\Design\TitledThumbnailDesigner.cs" />
+    <Compile Include="Ch11\ImageMetaData.cs" />
+    <Compile Include="Ch11\Design\ImageMetaDataConverter.cs" />
+    <Compile Include="Ch11\Design\LocationConverter.cs" />
+    <Compile Include="Ch11\Design\RepeaterDesigner.cs" />
+    <Compile Include="Ch11\Design\SimpleTextEditor.cs" />
+    <Compile Include="Ch11\Design\TemplateMenuAutoFormatDesigner.cs" />
+    <Compile Include="Ch11\Design\TemplateMenuDesigner.cs" />
+    <Compile Include="Ch11\Design\TitledThumbnailComponentEditor.cs" />
+    <Compile Include="Ch11\Location.cs" />
+    <Compile Include="Ch11\TitledThumbnail.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ch08\UpDown.js" />
+    <EmbeddedResource Include="Ch09\HighlightedHyperLink.js" />
+    <EmbeddedResource Include="Ch09\TextCaseBehavior.js" />
+    <EmbeddedResource Include="Ch11\Design\SimpleTextEditorDialog.resx">
+      <DependentUpon>SimpleTextEditorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch11\Design\TitledThumbnailComponentEditorDlg.resx">
+      <DependentUpon>TitledThumbnailComponentEditorDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ch12\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

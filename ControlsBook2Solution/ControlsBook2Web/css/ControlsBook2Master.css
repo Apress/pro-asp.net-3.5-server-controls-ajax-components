@@ -1,0 +1,34 @@
+﻿.TitleHeader
+{
+	font-family: 'Arial Black';
+}
+
+.Chapter
+{
+	font-weight: bold;
+	font-family: 'Arial Narrow';
+}
+
+.TitleFooter
+{
+	font-family: 'Arial Black'; font-size: smaller;
+}
+
+.Author
+{
+	font-size: smaller;
+	font-family: 'Arial Narrow';
+}
+
+.Copyright
+{
+	font-weight: bold;
+	font-size: x-small;
+	font-family: Tahoma;
+}
+
+a
+{
+	font-family:Verdana;
+	font-size:small;
+}

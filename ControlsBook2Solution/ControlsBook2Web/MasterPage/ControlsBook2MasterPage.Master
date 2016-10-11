@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ControlsBook2MasterPage.master.cs"
+  Inherits="ControlsBook2Web.MasterPage.ControlsBook2MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>Master Page</title>
+  <link href="../css/ControlsBook2Master.css" rel="stylesheet" type="text/css" />
+  <link href="../css/SkinnedControl.css" rel="stylesheet" type="text/css" />
+  <asp:ContentPlaceHolder ID="HeadSection" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+  <div id="HeaderPanel">
+    <asp:ScriptManager ID="ControlsBook2ScriptManager" runat="server">
+      <Scripts>
+        <asp:ScriptReference Path="../ch09/hoverbutton.js" />
+      </Scripts>
+    </asp:ScriptManager>
+    <asp:Label ID="Label2" CssClass="TitleHeader" runat="server" Height="18px" Width="604px">Pro ASP.NET 3.5 Server Controls and AJAX Components</asp:Label><br />
+    <div id="ChapterInfo" class="Chapter">
+      <asp:Label ID="label1" runat="server">Chapter</asp:Label>&nbsp;&nbsp;
+      <asp:ContentPlaceHolder ID="ChapterNumAndTitle" runat="server">
+      </asp:ContentPlaceHolder>
+      <asp:HyperLink ID="DefaultPage" runat="server" NavigateUrl="~/Default.aspx">Back To Start Page</asp:HyperLink><br />
+      <asp:Image ID="Image1" runat="server" ImageUrl="~/img/blueline.jpg" /><br />
+    </div>
+    <asp:ContentPlaceHolder ID="PrimaryContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="FooterPanel">
+      <asp:Image ID="Image2" runat="server" ImageUrl="~/img/blueline.jpg" /><br />
+      <asp:Label CssClass="TitleFooter" ID="Label5" runat="server">Pro ASP.NET 3.5 Server Controls and AJAX Components</asp:Label><br />
+      <asp:Label CssClass="Author" ID="Label6" runat="server">By Rob Cameron and Dale Michalk</asp:Label><br />
+      <asp:Label CssClass="Copyright" ID="Label7" runat="server">Copyright © 2007, Apress L.P.</asp:Label>&nbsp;
+    </div>
+  </div>
+  </form>
+</body>
+</html>

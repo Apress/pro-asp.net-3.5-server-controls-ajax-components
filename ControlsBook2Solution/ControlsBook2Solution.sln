@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsBook2Lib", "ControlsBook2Lib\ControlsBook2Lib.csproj", "{903360CE-1FB6-4F8D-B976-D0571279FB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsBook2Web", "ControlsBook2Web\ControlsBook2Web.csproj", "{EFBDFE9F-FE3E-4FD9-AA71-4E5FC8EE24B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDelegates", "TestDelegates\TestDelegates.csproj", "{88A254F9-F610-498C-B55D-B31FBFCE176B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsBook2MobileWeb", "ControlsBookMobile\ControlsBook2MobileWeb.csproj", "{12359AD3-6CAD-4C56-A672-AF4866679FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsBook2Lib.CH12.LiveSearchControls", "ControlsBook2Lib.Ch12.LiveSearchControls\ControlsBook2Lib.CH12.LiveSearchControls.csproj", "{AEA1EF7E-EB2B-4E61-BA5B-F01C9825C84D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseGenerator", "LicenseGenerator\LicenseGenerator.csproj", "{DC7EC1E4-0F7F-4610-96AE-6C16B8FD5338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{903360CE-1FB6-4F8D-B976-D0571279FB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903360CE-1FB6-4F8D-B976-D0571279FB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903360CE-1FB6-4F8D-B976-D0571279FB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903360CE-1FB6-4F8D-B976-D0571279FB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBDFE9F-FE3E-4FD9-AA71-4E5FC8EE24B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBDFE9F-FE3E-4FD9-AA71-4E5FC8EE24B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBDFE9F-FE3E-4FD9-AA71-4E5FC8EE24B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBDFE9F-FE3E-4FD9-AA71-4E5FC8EE24B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A254F9-F610-498C-B55D-B31FBFCE176B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A254F9-F610-498C-B55D-B31FBFCE176B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A254F9-F610-498C-B55D-B31FBFCE176B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A254F9-F610-498C-B55D-B31FBFCE176B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12359AD3-6CAD-4C56-A672-AF4866679FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12359AD3-6CAD-4C56-A672-AF4866679FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12359AD3-6CAD-4C56-A672-AF4866679FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12359AD3-6CAD-4C56-A672-AF4866679FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA1EF7E-EB2B-4E61-BA5B-F01C9825C84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA1EF7E-EB2B-4E61-BA5B-F01C9825C84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA1EF7E-EB2B-4E61-BA5B-F01C9825C84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA1EF7E-EB2B-4E61-BA5B-F01C9825C84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7EC1E4-0F7F-4610-96AE-6C16B8FD5338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7EC1E4-0F7F-4610-96AE-6C16B8FD5338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7EC1E4-0F7F-4610-96AE-6C16B8FD5338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7EC1E4-0F7F-4610-96AE-6C16B8FD5338}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
